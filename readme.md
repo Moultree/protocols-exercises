@@ -10,6 +10,7 @@ The exercises in this repository are organized into subdirectories based on the 
 The following exercises are covered:  
 
 - [x] Trace autonomous systems
+- [x] Cacheable DNS Server
 - [ ] ...
 
 Each protocol subdirectory contains a README file with more information about the exercises and examples included.
