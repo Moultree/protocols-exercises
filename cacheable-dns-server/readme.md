@@ -18,9 +18,7 @@ This is a cacheable DNS server implementation that listens on port 53. The serve
 To run the script, you need to do the following:  
 
 ```bash
-python main.py
-
-Enter domain name: yourdomain.com
+python main.py domain_name
 ```
 
 ## Note

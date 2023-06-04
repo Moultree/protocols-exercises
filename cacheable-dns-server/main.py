@@ -1,6 +1,7 @@
 from io import BytesIO
 import socket
 import random
+import argparse
 import struct
 from utils import (
     DNSHeader,
@@ -179,9 +180,12 @@ class DNSServer:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="DNS Server")
+    parser.add_argument("domain", type=str, help="Domain name to resolve")
+    args = parser.parse_args()
+
     DNSServer = DNSServer()
     DNSServer.cache.load("cache")
-    domain = input("Enter domain name: ")
-    result = DNSServer.resolve(domain, TYPE_A)
+    result = DNSServer.resolve(args.domain, TYPE_A)
     print(result)
     DNSServer.cache.dump("cache")

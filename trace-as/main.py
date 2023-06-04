@@ -1,5 +1,6 @@
 import re
 import subprocess
+import argparse
 
 import requests
 from prettytable import PrettyTable
@@ -63,8 +64,11 @@ def build_results_table(asns: dict) -> PrettyTable:
 
 
 if __name__ == "__main__":
-    destination = input("Input domain name or IP-address: ")
-    ip_addresses = extract_ip_addresses(destination)
+    parser = argparse.ArgumentParser(description="Trace IP addresses and display ASN information.")
+    parser.add_argument("destination", type=str, help="Domain name or IP address to trace")
+    args = parser.parse_args()
+
+    ip_addresses = extract_ip_addresses(args.destination)
     asns = get_asns(ip_addresses)
     table = build_results_table(asns)
     print(table)

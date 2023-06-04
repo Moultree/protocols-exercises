@@ -22,7 +22,5 @@ pip install -r requirements.txt
 To run the script, you need to do the following:  
 
 ```bash
-python main.py
-
-Input domain name or IP-address: yourdomain.com
+python main.py destination
 ```
