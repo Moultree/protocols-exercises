@@ -11,6 +11,7 @@ The following exercises are covered:
 
 - [x] Trace autonomous systems
 - [x] Cacheable DNS Server
+- [x] Google API Downloader (http-api)
 - [ ] ...
 
 Each protocol subdirectory contains a README file with more information about the exercises and examples included.
