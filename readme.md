@@ -11,6 +11,7 @@ The following exercises are covered:
 
 - [x] Trace autonomous systems
 - [x] Cacheable DNS Server
+- [x] SMTP-client
 - [x] Google API Downloader (http-api)
 - [ ] ...
 
