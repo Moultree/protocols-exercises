@@ -14,5 +14,5 @@ To run the script, you need to do the following:
 
 - Update the email-related variables in the config.json file. These variables include password, subject, sender_email, receiver_email,attachment folder and edit message in message.txt file. Modify them according to your requirements.
 ```bash
-python smtp.py destination
+python smtp.py
 ```
