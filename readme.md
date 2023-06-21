@@ -12,7 +12,7 @@ The following exercises are covered:
 - [x] Trace autonomous systems
 - [x] Cacheable DNS Server
 - [x] SMTP-client
-- [x] Google API Downloader (http-api)
+- [x] Google Drive file Downloader (http-api)
 - [ ] ...
 
 Each protocol subdirectory contains a README file with more information about the exercises and examples included.
