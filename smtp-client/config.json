@@ -1,0 +1,9 @@
+{
+    "secret": "your_password",
+    "subject": "qwe",
+    "send_from": "ov3rflow1@yandex.ru",
+    "send_to": [
+        "ov3rflow1@yandex.ru"
+    ],
+    "Attachment": "foldername"
+}
