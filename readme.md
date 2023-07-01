@@ -10,6 +10,7 @@ The exercises in this repository are organized into subdirectories based on the 
 The following exercises are covered:  
 
 - [x] Trace autonomous systems
+- [X] TCP-UDP Port scanner
 - [x] Cacheable DNS Server
 - [x] SMTP-client
 - [x] Google Drive file Downloader (http-api)
